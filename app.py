@@ -74,7 +74,7 @@ def delete_user(Email):
      
 if Data == 'Home':
     st.text("Abstract")
-    st.write("AI Legal is an AI-based approach that utilizes case descriptions in order to predict law section classifications based on K-Nearest Neighbors (KNN), Linear Support Vector Machine (SVM), Decision Tree, Random Forest and Extra Trees Classifier. These models were chosen because of their advantage in dealing with large quantities of legal data and diverse feature interdependencies. In classification based on proximity, we have KNN while for the linear decision boundaries, Linear SVM is the best model. Decision Trees are easy to interpret, and Random Forest reduces variance and produces more accurate results. But Extra Trees Classifier yields the highest accuracy and training speed as well as less prone to overfitting")
+    st.text_area("AI Legal is an AI-based approach that utilizes case descriptions in order to predict law section classifications based on K-Nearest Neighbors (KNN), Linear Support Vector Machine (SVM), Decision Tree, Random Forest and Extra Trees Classifier. These models were chosen because of their advantage in dealing with large quantities of legal data and diverse feature interdependencies. In classification based on proximity, we have KNN while for the linear decision boundaries, Linear SVM is the best model. Decision Trees are easy to interpret, and Random Forest reduces variance and produces more accurate results. But Extra Trees Classifier yields the highest accuracy and training speed as well as less prone to overfitting")
                     
 if Data=="Register 📰":
     Fname = st.text_input("First Name")
